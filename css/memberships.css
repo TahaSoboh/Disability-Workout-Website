@@ -1,0 +1,119 @@
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 0.1;
+    word-spacing: normal;
+}
+
+.container{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.accordion-item1{
+    background-color: #283042;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.accordion-link1{
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+    background-color: #283042;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion-link1 i{
+    color: #e7d5ff;
+    padding: 0.5rem;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 250ms;
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p{
+    color: white;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.accordion-item1:target .answer{
+    max-height: 20rem;
+}
+
+body {
+     min-height: 100vh; 
+    background-image: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.memberships{
+    float:left
+}
+
+.container{
+    float:right;
+}
+
+
+.vir-memberships{
+    float: right;
+}
+
+.container1{
+    float: left;
+    align-items: below;
+}
+
+.background{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h2{
+    color: white;
+}

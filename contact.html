@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+
+        <title>PPM Gym</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <header>
+
+          <a href="index.html">
+            <img class="logo" src="images/logo.jpg" alt="logo">
+          </a>
+
+          <nav>
+
+              <ul class="nav_links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="classes.html">Classes</a></li>
+                  <li><a href="memberships.html">Memberships</a></li>
+                  <li><a href="facilities.html">Facilities</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+              </ul>
+
+          </nav>
+
+          <a class=""cta" href="contact.html"><button>Contact</button></a>
+
+      </header>
+
+
+    </head>
+
+    <body bgcolor="white">
+
+        <main>
+            
+            <section id="contacts-container">
+                <article class="container">
+                    <article class="form">
+                      <article class="contact-info">
+                        <h2 class="title">Connect with us: </h2>
+                        <h3 class="message">
+                         Let us know if you have any message/ feedback. We'll be more than happy to help.
+                        </h3>
+                        <br>
+              
+                        <article class="info">
+                          <article class="information">
+                            <img src="images/pinpoint.png" class="icon" alt="" />
+                            <p><strong>Address:</strong> Lower Parliament Street, Nottingham, NG1 1EE</p>
+                          </article>
+                          <article class="map">
+                            <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2403.67535924407!2d-1.1415724342267417!3d52.95426422989869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879c3d7d3ccb7ef%3A0xf803d23f1d652158!2sLower%20Parliament%20St%2C%20Nottingham%20NG1%201EE!5e0!3m2!1sen!2suk!4v1650759935364!5m2!1sen!2suk" 
+                            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+                          </article>
+                          <br><br>
+                          <article class="information">
+                            <img src="images/e-mail.png" class="icon" alt="" />
+                            <p><strong>Email:</strong>PPMGym@gmail.com</p>
+                          </article>
+                          <article class="information">
+                            <img src="images/phone.png" class="icon" alt="" />
+                            <p><strong>Contact:</strong>+44 7771 695251</p>
+                          </article>
+                        </article>
+              
+                        <article class="company-name">
+                          <p>PPM Gym</p>
+                        </article>
+                      </article>
+              
+                      <article class="contact-form">
+                        <br><br><br><br>
+                        <form name="register" >
+                              <label for="fullName">Full Name: </label>
+                              <input class="input-box" type="message" id="fullName" name="fullName" placeholder="Enter Your Full Name" pattern=".{6,15}" title="Name must be between 6 to 15 characters" required/>
+                              <p class="error-message"></p>
+                            
+                              <label for="E-mail">E-mail address: </label>
+                              <input class="input-box" type="message" id="E-mail" placeholder="example@gmail.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Please enter a valid E-mail address" required/>
+                              <p class="error-message"></p>
+                            
+                              <label for="phoneNumber">Phone Number: </label>
+                              <input class="input-box" type="message" id="phoneNumber" pattern="([0][0-9]{10})" title="phone number must be 11 digits long starting with 0" maxlength="11"  placeholder="Please enter your Phone Number" />
+                              <p class="error-message"></p>
+                          
+                              <label for="Message" >Message: </label>
+                              <input class="input-box message-box" type="message" id="country" placeholder="Type in your Message" required/>
+                              <p class="error-message"></p>
+                          
+                             <center><input class="button" type="submit" value="submit" name="submit" onClick="Validate()" id="formID" required/></center>
+                        </form>
+                      </article>
+                    </article>
+                  </article>
+              </section>
+
+        </main>
+
+    </body>
+
+    <footer>
+      <footer class="footer">
+          <div class="footer-container">
+              <div class="footer-row">
+  
+                  <div class="footer-col">
+                      <h4>Pages</h4>
+                      <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About Us</a></li>
+                          <li><a href="classes.html">Classes</a></li>
+                          <li><a href="memberships.html">Memberships</a></li>
+                          <li><a href="facilities.html">Facilities</a></li>
+                          <li><a href="faq.html">FAQ</a></li>
+                      </ul>
+                  </div>
+
+                  <div class="footer-col">
+                    <h4>Contact us:</h4>
+                    <ul>
+                        <li><p>Postal Code: NG1 1EE</p></li>
+                        <li><p>PPMGym@gmail.com</p></li>
+                        <li><p>+44 7771 695251</p></li>
+                        <li><a href="contact.html">Contact Page</a></li>
+                    </ul>
+                  </div>
+
+                <div class="footer-col">
+                  <h4>Follow us</h4>
+                  <div class="social-links">
+                    <a href="https://en-gb.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+  
+              </div>
+              <hr class="...">
+              <center><p class="footerDown"> PPM Gym, Nottingham Trent University</p></center>
+          </div>
+  </footer>
+
+</html>
